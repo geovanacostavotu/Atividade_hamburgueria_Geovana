@@ -1,0 +1,50 @@
+bodY{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+    line-height: 2;
+}
+
+h1{
+    background-color: #4806949d;
+    text-align: center;
+    padding: 30px;
+}
+
+nav{
+    background-color: #f7d2ce;
+    font-weight: bold;
+}
+
+h2{
+    color: #9134fc;
+    font-size: 28px;
+}
+
+h3{
+    color: #9134fc;
+}
+
+img{
+    width: 80%;
+    max-height: px;
+    border-radius: 12px;
+}
+
+footer {
+    background-color: #2e032c;
+    color: #ffb3d9;
+    text-align: center;
+    padding: 25px;
+    margin-top: 30px;
+}
+
+.prods{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 5px;
+    background-color: #29292993;
+    border: 2px solid #ec45ec;
+    border-radius: 5px;
+    padding: 30px;
+}
